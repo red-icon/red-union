@@ -1,0 +1,25 @@
+.column {
+    background-color: gray;
+}
+
+.columns {
+    background-color: gray;
+}
+
+.purple {
+    color: #fe2bc0;
+}
+
+/*赤毛同盟（タイトルの設定）*/
+.radius {
+    border-radius: 50px 50px 25px 25px / 50px 50px 25px 25px; /*枠角の設定:左上横　右上横　左下横　右下横　/左上縦　右上縦　左下縦　右下縦*/
+    line-height: 0.9em; /*縦の長さ*/
+    font-size: 9em; /*font size */
+    font-family: "French Script MT", fantasy; /*font書体*/
+    color: #ff0000; /*文字の色：red*/
+    background-color: #000000; /*背面の色：black*/
+    text-align: center; /*字:真ん中*/
+    text-shadow: 3px 3px 2px #0000ff; /*影:blue*/
+
+}
+
