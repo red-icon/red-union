@@ -1,9 +1,5 @@
-.column {
-    background-color: gray;
-}
-
-.columns {
-    background-color: gray;
+.column, .columns {
+    background-color: #eee;
 }
 
 .purple {
