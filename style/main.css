@@ -6,6 +6,11 @@
     background-color: gray;
 }
 
+.title-frame{
+    margin:10px;
+}
+
+
 .purple {
     color: #fe2bc0;
 }
