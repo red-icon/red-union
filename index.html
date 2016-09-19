@@ -16,11 +16,11 @@
 
     <link rel="stylesheet" href="style/main.css">   <!-- main.cssを<style></style>の中身にする-->
 </head>
-
 <body>
-
 <div class="container">
     <!--タイトル-->
+    <!--class名でタイトルであることがわかるから、上のコメントはいらないのでは？
+        説明していなかったが、レイアウトとコンポーネントでしっかり分けること。詳しくは会ったときに話す-->
     <div class="row title-frame">
         <div class="offset-by-two eight columns radius"><em>R</em>ed union</div>
     </div>
@@ -30,13 +30,17 @@
     </div>
     <div class="row">
         <div class="six columns">感想・バグ報告</div>
+        <!-- Fuck! -->
         <div class="six columns">今後の展開<
             /div>
+        </div>
     </div>
-</div>
 
+    <!--もしも注釈つけないのなら、<figure>使わない。<img>だけでいい
+        コピペするなら一文字一文字の意味までちゃんと理解して使うこと。次のPushでも<legend>とかカエルのイラストとか書いてあったら私刑な-->
     <figure>
         <legend>雨の日のカエル</legend>
+        <!--ファイルの名前では日本語、空白を入れないこと-->
         <img src="red icon 会話（概要用画像).png" alt="カエルのイラスト">
     </figure>
 
