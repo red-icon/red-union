@@ -1,14 +1,18 @@
 .column, .columns {
-    background-color: #eee;
+    background-color: #e8ee0f;
+    margin: 0.1em;
 }
 
 .title-frame{
-    margin:10px;
+    margin:5px;
+    padding: 5px;
 }
-
 
 .purple {
     color: #fe2bc0;
+}
+.summaly-blue{
+    color: #fdff13;
 }
 
 /*赤毛同盟（タイトルの設定）*/
@@ -21,10 +25,26 @@
     background-color: #000000; /*背面の色：black*/
     text-align: center; /*字:真ん中*/
     text-shadow: 3px 3px 2px #0000ff; /*影:blue*/
-
 }
 
-.panel-big {
-    font-size: 2em;
+/*赤毛同盟　概要設定*/
+.summaly{
+    font-size: 40px; /*font size */
+    text-align: center; /*字:真ん中*/
+    font-weight: 700;
 }
+
+.summaly-red-font{
+    color: #ff0000; /*文字の色：red*/
+}
+.summaly-blue-shadow{
+    text-shadow: 2px 2px 1px #0000ff; /*影:blue*/
+}
+.summaly-yellow-shadow{
+    text-shadow: 2px 2px 1px #faff13; /*影:blue*/
+}
+.summaly-oreng-shadow{
+    text-shadow: 2px 2px 1px #14ff1c; /*影:blue*/
+}
+
 
