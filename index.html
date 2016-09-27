@@ -2,47 +2,23 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Red Icon</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-
-    <!-- FONT
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-
-    <!-- CSS
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/skeleton.css">
-
-    <link rel="stylesheet" href="style/main.css">   <!-- main.cssを<style></style>の中身にする-->
+    <link rel="stylesheet" href="style/main.css">
 </head>
 <body>
-<div class="container">
-    <!--タイトル-->
-    <!--class名でタイトルであることがわかるから、上のコメントはいらないのでは？
-        説明していなかったが、レイアウトとコンポーネントでしっかり分けること。詳しくは会ったときに話す-->
-    <div class="row title-frame">
-        <div class="offset-by-two eight columns radius"><em>R</em>ed union</div>
-    </div>
-    <div class="row">
-        <div class="six columns">レッドアイコンの遊び方</div>
-        <div class="six columns">BotGameの作り方</div>
-    </div>
-    <div class="row">
-        <div class="six columns">感想・バグ報告</div>
-        <!-- Fuck! -->
-        <div class="six columns">今後の展開<
-            /div>
-        </div>
-    </div>
-
-    <!--もしも注釈つけないのなら、<figure>使わない。<img>だけでいい
-        コピペするなら一文字一文字の意味までちゃんと理解して使うこと。次のPushでも<legend>とかカエルのイラストとか書いてあったら私刑な-->
-    <figure>
-        <legend>雨の日のカエル</legend>
-        <!--ファイルの名前では日本語、空白を入れないこと-->
-        <img src="red icon 会話（概要用画像).png" alt="カエルのイラスト">
-    </figure>
-
+<section>
+    <h1 class="title">Red Icon</h1>
+    <p class="description">キャラクターと会話して謎を解くTwitterゲーム</p>
+    <nav>
+        <div class="l-box nav-box nav-box--right"><a>遊び方</a></div>
+        <div class="l-box nav-box"><a>作り方</a></div>
+        <div class="l-box nav-box nav-box--right"><a>感想・バグ報告</a></div>
+        <div class="l-box nav-box"><a>今後の展開</a></div>
+    </nav>
+</section>
 </body>
 </html>

@@ -1,60 +1,31 @@
-.column, .columns {
-    background-color: #e8ee0f;
-    margin: 0.1em;
+body{
+    font-family: "Inconsolata", Helvetica, Arial, sans-serif;
 }
 
-.title-frame{
-    margin:5px;
-    padding: 5px;
+a{
+    color: #FF324C
 }
 
-.purple {
-    color: #fe2bc0;
+.title{
+    color: #FF0021;
+    text-align: center;
+    font-weight: 600;
+    font-size: 400%;
+    margin-top: 0.8em;
 }
 
-/*サマリーのスペルミスってる。PhpStorm使っていれば、スペルミスには緑色の波線が表示される。
-名前の付け方を見ると、サマリーコンポーネントのパーツであることがわかるが、なぜ下のパーツと同じところに書かない？
-同じパーツであるのか、たまたま名前が被ったのか区別できない。サマリーの修正時にもこれだけ別の所に書かれていたら気づかないで見落とす可能性もある*/
-.summaly-blue{
-    color: #fdff13;
+.description{
+    text-align: center;
 }
 
-/*radiusとかいう意味の違う名前じゃなくて、タイトルの設定であることがわかる名前にする。
-そしてコメントを消す。コメントは大事だが、コードを見てわかることはコメントしなくていいし、できるだけコードで説明するようにする。
-例えば、クラスや変数名をわかりやすい、意味のある名前にするなど*/
-/*赤毛同盟（タイトルの設定）*/
-.radius {
-    border-radius: 50px 50px 25px 25px / 50px 50px 25px 25px; /*枠角の設定:左上横　右上横　左下横　右下横　/左上縦　右上縦　左下縦　右下縦*/
-    line-height: 0.9em; /*縦の長さ*/
-    font-size: 9em; /*font size */
-    font-family: "French Script MT", fantasy; /*font書体*/
-    color: #ff0000; /*文字の色：red*/
-    background-color: #000000; /*背面の色：black*/
-    text-align: center; /*字:真ん中*/
-    text-shadow: 3px 3px 2px #0000ff; /*影:blue*/
+.l-box{
+    width: 46%;
+    float: left;
+    margin: 1em 0 0 2%;
 }
 
-/*赤毛同盟　概要設定*/
-.summaly{
-    font-size: 40px; /*font size */
-    text-align: center; /*字:真ん中*/
-    font-weight: 700;
+.nav-box--right{
+    text-align: right;
+    margin-right: 2%;
+    margin-left: 0;
 }
-
-.summaly-red-font{
-    color: #ff0000; /*文字の色：red*/
-}
-/*影:blueのコメントが実際のコードの内容と違っている。簡単な内容だからすぐに間違いだとわかるが、
-コードを間違えて黄色になってしまっているのか、コメントで間違えて青と書いてしまったのか、わからなくなる。混乱するからコメントで嘘を書かない
-コードの修正してコメントの修正をし忘れるということが起こるので、できるだけコメントは書かず、コードで説明するようにすること*/
-.summaly-blue-shadow{
-    text-shadow: 2px 2px 1px #0000ff; /*影:blue*/
-}
-.summaly-yellow-shadow{
-    text-shadow: 2px 2px 1px #faff13; /*影:blue*/
-}
-.summaly-oreng-shadow{
-    text-shadow: 2px 2px 1px #14ff1c; /*影:blue*/
-}
-
-
