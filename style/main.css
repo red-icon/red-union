@@ -1,17 +1,17 @@
-body{
-    font-family: "Inconsolata", Helvetica, Arial, sans-serif;
+a, a:link, a:visited{
+    color: black;
 }
-
-a{
-    color: #FF324C
+a:active, a:hover{
+    color: red;
 }
 
 .title{
-    color: #FF0021;
+    font-family: "Caveat", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 6.5rem;
     text-align: center;
-    font-weight: 600;
-    font-size: 400%;
-    margin-top: 0.8em;
+    margin-top: 5rem;
+    color: #FF0F00;
 }
 
 .description{
@@ -21,7 +21,7 @@ a{
 .l-box{
     width: 46%;
     float: left;
-    margin: 1em 0 0 2%;
+    margin: 1rem 0 0 2%;
 }
 
 .nav-box--right{
