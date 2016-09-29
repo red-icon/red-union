@@ -1,20 +1,59 @@
-a, a:link, a:visited{
+/* Base
+------------------------*/
+a, a:link, a:visited {
     color: black;
     text-decoration: none;
 }
-a:active, a:hover{
+
+a:active, a:hover {
     color: red;
 }
 
-.title{
+.button {
+    margin: 0;
+    font-size: inherit;
+    font-weight: normal;
+}
+
+.button:active, .button:hover {
+    color: white;
+    background-color: #FF0F00;
+    border-color: #FF0F00;
+}
+
+/* common
+------------------------*/
+.l-title {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.title {
     font-family: "Caveat", Helvetica, Arial, sans-serif;
     font-weight: bold;
     font-size: 6.5rem;
-    text-align: center;
-    margin-top: 5rem;
     color: #FF0F00;
 }
 
+.share {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+article {
+    width: 40em;
+    margin: 3rem auto;
+}
+
+@media screen and (max-width: 44em) {
+    article {
+        width: 90%;
+    }
+}
+
+/* index
+------------------------*/
 .l-catch-copy {
     text-align: center;
     margin-bottom: 3rem;
@@ -25,30 +64,18 @@ a:active, a:hover{
     margin: 5rem 0;
 }
 
-.l-row{
+.l-row {
     display: flex;
     justify-content: center;
 }
 
-.l-box{
+.l-nav-box {
     margin: 0.5rem 1rem;
 }
-.nav-box--right{
-    text-align: right;
-}
 
-.share{
-    display: flex;
-    justify-content: center;
-    margin: 3rem 0;
-}
-
-.button {
-    margin: 0;
-    font-size: inherit;
-}
-.button:active, .button:hover {
-    color: white;
-    background-color: #FF0F00;
-    border-color: #FF0F00;
+/* congrats
+------------------------*/
+.brackets {
+    padding: 0.66em;
+    font-weight: bold;
 }
