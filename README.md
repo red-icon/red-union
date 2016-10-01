@@ -7,4 +7,7 @@ git clone https://github.com/red-icon/web.git
 npm install
 npm run watch
 ```
-entry file : [pug/index.pug](https://github.com/red-icon/web/blob/master/pug/index.pug)
+entry file : [pug/index.pug](pug/index.pug)
+
+## License
+[MIT](LICENSE)
