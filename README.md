@@ -1,5 +1,5 @@
 # Website for Red Icon
-Red Icon is Twitter game. This is site for Red Icon.
+[Red Icon](https://twitter.com/uranai_Redicon) is Twitter game. This is site for [Red Icon](https://twitter.com/uranai_Redicon).
 
 ## Usage for Developer
 ```
