@@ -1,0 +1,26 @@
+{
+  "name": "web",
+  "version": "0.0.1",
+  "description": "website for Red Icon",
+  "main": "pug/index.pug",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-icon/web.git"
+  },
+  "keywords": [
+    "red-icon"
+  ],
+  "author": "kekemoto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/red-icon/web/issues"
+  },
+  "homepage": "https://github.com/red-icon/web#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-pug": "^3.0.4"
+  }
+}
