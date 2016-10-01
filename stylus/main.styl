@@ -1,13 +1,17 @@
+color-accent = #ff0f00
+color-base = white
+color-main = black
+
 // Base
 a
   &
   &:link
   &:visited
-    color black
+    color color-main
     text-decoration none
   &:active
   &:hover
-    color red
+    color color-accent
 
 .button
   margin 0
@@ -15,9 +19,9 @@ a
   font-weight normal
   &:active
   &:hover
-    color white
-    background-color #FF0F00
-    border-color #FF0F00
+    color color-base
+    background-color color-accent
+    border-color color-accent
 
 // common
 .l-title
@@ -28,7 +32,7 @@ a
   font-family "Caveat", Helvetica, Arial, sans-serif
   font-weight bold
   font-size 6.5rem
-  color #FF0F00
+  color color-accent
 
 .share
   display flex

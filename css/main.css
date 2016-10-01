@@ -6,7 +6,7 @@ a:visited {
 }
 a:active,
 a:hover {
-  color: #f00;
+  color: #ff0f00;
 }
 .button {
   margin: 0;
