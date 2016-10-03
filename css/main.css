@@ -45,7 +45,7 @@ article {
   width: 40em;
   margin: 3rem auto;
 }
-@media screen and (max-width: 44em) {
+@media screen and (max-width: 64em) {
   article {
     width: 90%;
   }
