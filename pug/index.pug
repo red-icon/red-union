@@ -1,14 +1,6 @@
-include parts/head
-body
-    h1.-title.title: a(href='.') Red Icon
+extends parts/layout
+
+block body
     p.-catch-copy キャラクターと会話して謎を解くTwitterゲーム
     p.-try: a.button(href='https://twitter.com/intent/tweet?text=%40uranai_Redicon%20%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88') とりあえず、やってみる？
-    nav
-        .-nav-box
-            .-nav-box__box: a(href='play.html') 遊び方
-            .-nav-box__box: a(href='create.html') 作り方
-        .-nav-box
-            .-nav-box__box: a(href='https://docs.google.com/forms/d/e/1FAIpQLSeYLly0OxZHjbi6tIQ75dqpdwCTjKUV7A_XSbjiVwyVCcgLZw/viewform?c=0&w=1') 感想・質問
-            .-nav-box__box: a(href='vision.html') 今後の展開
-    include parts/share
-    include parts/analytics
+
