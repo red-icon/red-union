@@ -3,6 +3,9 @@
     font-size: 100%;
   }
 }
+body {
+  font-family: "Caveat", "Raleway" Helvetica, Arial, sans-serif;
+}
 a,
 a:link,
 a:visited {
@@ -43,7 +46,7 @@ a:hover {
 }
 article {
   width: 40em;
-  margin: 3rem auto;
+  margin: 5rem auto;
 }
 @media screen and (max-width: 64em) {
   article {

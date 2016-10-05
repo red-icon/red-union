@@ -1,11 +1,15 @@
 color-accent = #ff0f00
 color-base = white
 color-main = black
+space-base = 5rem
 
 // Base
 html
   @media screen and (min-width: 750px)
     font-size 100%
+
+body
+  font-family "Caveat", "Raleway" Helvetica, Arial, sans-serif
 
 a
   &
@@ -31,7 +35,7 @@ a
 
 // common
 .-title
-  margin-top 5rem
+  margin-top space-base
   text-align center
 
 .title
@@ -47,7 +51,7 @@ a
 
 article
   width 40em
-  margin 3rem auto
+  margin space-base auto
   @media screen and (max-width: 40 * 1.6 em)  //@media size depend default font-size
     width 90%
 
@@ -58,7 +62,7 @@ article
 
 .-try
   text-align center
-  margin 5rem 0
+  margin space-base 0
 
 .-nav-box
   display flex
